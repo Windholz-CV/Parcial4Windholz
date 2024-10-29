@@ -1,0 +1,105 @@
+section {
+    display: flex;
+    width: 1500px;
+    height: 450px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .3;
+    transition: .5s ease;
+}
+
+section h1 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 8rem;
+    font-weight: bold;
+    background: rgb(rgb(0, 0, 0), rgb(0, 5, 0), rgb(0, 0, 0));
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-shadow: 1px 3px rgb(0, 72, 139);
+
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+body {
+    background-color: rgb(26, 27, 27);
+margin: 0;
+}
+
+ul {
+    list-style: none;
+    background-color: transparent;
+    width: 300px;
+    padding: 30px;
+}
+
+.Items {
+    display: inline;
+    padding: 8px;
+}
+
+.background-container {
+    background-image: url(./Imagen/valorant.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+    height: 300px;
+    width: 100vw;
+    margin: 0;
+    text-shadow: 2px 2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.background-container h2{
+    position: relative;
+    left: -28% ;
+    color: white; 
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black; 
+    margin: 0 0 20px; 
+    text-align: left;
+    height: 120%
+    
+}
+
+.Tarjeta {
+    background-color: rgb(44, 48, 47) ;
+    max-width: 300px;
+    margin: 5px;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px pink, -5px -5px 10px pink;
+    color: white;
+    text-align: center;
+}
+
+.img_tarjeta {
+    width: 100%;
+border-radius: 8px;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', 'times new roman', 'Times New Roman', Times, serif;
+margin:0 ;
+padding: 0;
+}
